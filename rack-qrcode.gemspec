@@ -6,12 +6,12 @@ require 'rack/qrcode/version'
 Gem::Specification.new do |spec|
   spec.name          = "rack-qrcode"
   spec.version       = Rack::Qrcode::VERSION
-  spec.authors       = ["haruyama-makoto"]
-  spec.email         = ["makoto.haruyama@dena.com"]
+  spec.authors       = ["SpringMT"]
+  spec.email         = ["today.is.sky.blue.sky@gmail.com"]
 
   spec.summary       = %q{Generate QR code}
   spec.description   = %q{Generate QR code}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/SpringMT/rack-qrcode"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
