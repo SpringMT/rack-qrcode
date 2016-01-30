@@ -13,11 +13,11 @@ describe Rack::Qrcode do
 
   it 'return a valid qrcode' do
     get '/qrcode', {
-        text: 'test qrcode',
-        width: 40,
+        text:  'test qrcode',
+        width:  40,
         height: 40,
-        size: 8,
-        level: :h
+        size:   8,
+        level:  :h
     }
     expect(last_response['Content-Type']).to eq 'image/png'
     expect(last_response['Content-Length'].to_i).to be > 0
