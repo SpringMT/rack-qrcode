@@ -26,7 +26,7 @@ module Rack
       body = png.resize(width, height).to_blob
       headers = {
         "Content-Length" => body.bytesize.to_s,
-        "Content-Type"   => "imgae/png",
+        "Content-Type"   => "image/png",
         "Last-Modified"  => Time.now.httpdate
       }
 
